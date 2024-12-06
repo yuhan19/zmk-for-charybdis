@@ -28,12 +28,12 @@
 
         layer_1 {
             bindings = <
-&none     &none           &none           &none      &none     &none         &none  &none       &none     &none          &kp GRAVE  &none
-&kp CAPS  &none           &kp UP_ARROW    &none      &none     &bt BT_NXT    &none  &none       &none     &none          &none      &none
-&none     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &none     &bt BT_CLR    &none  &kp INSERT  &kp HOME  &kp PAGE_UP    &none      &none
-&none     &none           &none           &none      &none     &none         &none  &kp END     &kp END   &kp PAGE_DOWN  &none      &kp EQUAL
-                                          &none      &none     &none         &none  &none
-                                                     &mkp MB1  &mkp MB2      &none
+&none           &none  &none     &none           &none            &none         &none  &none       &none     &none          &kp GRAVE  &none
+&kp CAPS        &none  &none     &kp UP_ARROW    &none            &bt BT_NXT    &none  &none       &none     &none          &none      &none
+&kp LEFT_SHIFT  &none  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT_ARROW  &bt BT_CLR    &none  &kp INSERT  &kp HOME  &kp PAGE_UP    &none      &none
+&none           &none  &none     &none           &none            &none         &none  &kp END     &kp END   &kp PAGE_DOWN  &none      &kp EQUAL
+                                 &none           &none            &none         &none  &none
+                                                 &mkp MB1         &mkp MB2      &none
             >;
 
             trackball-bindings = <&tsl>;
